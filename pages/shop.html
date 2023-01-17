@@ -16,63 +16,68 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="images/logobg.png" />
-    <title>Faithful Eyes Boutique | Shop</title>
+    <link rel="icon" href="images/logo.png" />
+    <title>Faithful Eyes Boutique | Home</title>
   </head>
 
   <body>
-    <div id="page-container">
-      <div id="content-wrap">
-        <!-- START OF NAVBAR -->
-        <nav class="navbar">
-          <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-branding">Faithful Eyes Boutique</a>
 
-          <button
-            type="button"
-            class="navbar-burger"
-            onclick="toggleMenuOpen()"
-          >
-            <span class="material-icons">menu</span>
-          </button>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/shop.html" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/login.html" class="nav-link">Login</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/signup.html" class="nav-link">Sign-Up</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
 
-          <h1 class="navbar-title">Faithful Eyes Boutique</h1>
-          <nav class="navbar-menu">
-            <div class="navbar-links">
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="signup.html">Sign-Up</a></li>
-              </ul>
-            </div>
-          </nav>
-        </nav>
-        <!-- END OF NAVBAR -->
-
-        <!-- START OF FOOTER -->
-
-        <section class="footer">
-          <div class="social">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.facebook.com/faithfuleyesboutique"
-              ><i class="fab fa-facebook"></i
-            ></a>
-          </div>
-
-          <ul class="list">
-            <li>
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
-          <p class="copyright">Faithful Eyes Boutique &copy 2021</p>
-          <p class="creator">Designed by Sole Media Group</p>
-        </section>
-
-        <!-- END OF FOOTER -->
+    <footer>
+      <div class="footer-content">
+        <h3>Faithful Eyes Boutique</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+          mollitia modi aliquid corporis provident illo qui quae unde,
+          architecto sunt, laudantium sequi beatae. Ipsam, reiciendis dolore
+          tempora est at aspernatur.
+        </p>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+          </li>
+        </ul>
       </div>
-    </div>
+      <div class="footer-bottom">
+        <p>
+          Copyright &copy;2021 Faithful Eyes Boutique. Designed by
+          <a href="#">Sole Media Group</a>
+        </p>
+      </div>
+    </footer>
 
     <script src="main.js"></script>
   </body>
